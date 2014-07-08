@@ -4,7 +4,7 @@
   "description": "NodeJS + MongoDB api for product management",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require tests/support/env --reporter dot --check-leaks tests/"
+    "test": "mocha --require test/support/env --reporter dot --check-leaks test/"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,12 @@
     "url": "https://github.com/facet/product/issues"
   },
   "homepage": "https://github.com/facet/product",
+  "dependencies": {
+    "facet-core": "https://github.com/facet/core/tarball/master"
+  },
   "devDependencies": {
-    "mocha": "^1.20.1"
+    "facet-intercom": "https://github.com/facet/intercom/tarball/master",
+    "mocha": "^1.20.1",
+    "supertest": "^0.13.0"
   }
 }
