@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/facet/product",
   "dependencies": {
-    "facet-core": "https://github.com/facet/core/tarball/master"
+    "facet-core": "https://github.com/facet/core/tarball/master",
+    "underscore": "^1.6.0"
   },
   "devDependencies": {
     "facet-intercom": "https://github.com/facet/intercom/tarball/master",
