@@ -4,12 +4,12 @@ var assert = require('assert'),
   request = require('supertest');
 
 var appOptions = {
-  intercom: new Intercom
+  intercom: new Intercom()
 };
 
 var productAPI = new ProductAPI(appOptions);
 
-describe('app', function() {
+describe('ProductAPI', function() {
   it('should exist', function(){
     assert(productAPI);
   });
